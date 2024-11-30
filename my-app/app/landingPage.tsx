@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { ArrowRight, Share2, Users, Zap, Brain, Code, Calendar, Workflow } from 'lucide-react';
 
@@ -109,7 +111,9 @@ const LandingPage: React.FC = () => {
           <p className="text-xl text-gray-600 mb-10">
             The first AI-powered networking app that lets you share all your social profiles in one tap.
           </p>
-          <button className="bg-black text-white px-10 py-4 rounded-full hover:bg-gray-800 transition flex items-center gap-3 mx-auto">
+          <button 
+            onClick={() => window.open('https://forms.gle/dkX8miwLFNGqnpdFA', '_blank')}
+            className="bg-black text-white px-10 py-4 rounded-full hover:bg-gray-800 transition flex items-center gap-3 mx-auto">
             Join Waitlist <ArrowRight size={20} />
           </button>
         </div>
@@ -208,7 +212,9 @@ const LandingPage: React.FC = () => {
           <p className="text-xl text-gray-600 mb-10">
             Join our waitlist to be among the first to experience the future of professional networking.
           </p>
-          <button className="bg-black text-white px-10 py-4 rounded-full hover:bg-gray-800 transition flex items-center gap-3 mx-auto">
+          <button 
+            onClick={() => window.open('https://forms.gle/dkX8miwLFNGqnpdFA', '_blank')}
+            className="bg-black text-white px-10 py-4 rounded-full hover:bg-gray-800 transition flex items-center gap-3 mx-auto">
             Join Waitlist <ArrowRight size={20} />
           </button>
         </div>
