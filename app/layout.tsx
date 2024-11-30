@@ -16,6 +16,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "LinkDrop",
   description: "Drop in, Stand out",
+  icons: {
+    icon: '/logo.png',
+  },
 };
 
 export default function RootLayout({
