@@ -91,18 +91,15 @@ const LandingPage: React.FC = () => {
           <img 
             src="/logo.png" 
             alt="LinkDrop Logo" 
-            className="w-12 h-12 object-contain"
+            className="w-16 h-16 object-contain"
           />
-          <span className="text-2xl font-bold">LinkDrop</span>
+          <span className="text-3xl font-bold">LinkDrop</span>
         </div>
-        <button className="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition">
-          Get Early Access
-        </button>
       </nav>
 
       {/* Hero Section */}
       <header className="container mx-auto px-8 py-48">
-        <div className="max-w-3xl mx-auto text-center pt-20">
+        <div className="max-w-3xl mx-auto text-center pt-40">
           <h1 className="text-5xl md:text-6xl font-bold mb-8">
             Drop in, Stand out
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 mt-2">
@@ -124,7 +121,7 @@ const LandingPage: React.FC = () => {
       {/* Problem Section */}
       <section className="bg-white py-32">
         <div className="container mx-auto px-8">
-          <h2 className="text-3xl font-bold mb-16 text-center">It's a Pain to Connect</h2>
+          <h2 className="text-3xl font-bold mb-16 text-center">It Was a Pain to Connect</h2>
           <div className="grid md:grid-cols-3 gap-10">
             <ProblemCard
               title="Scanning QR Codes"
@@ -132,7 +129,8 @@ const LandingPage: React.FC = () => {
             />
             <ProblemCard
               title="Finding the Right Person"
-              description="Type their name on LinkedIn and hope it's the right profile"
+              description="Type their name on LinkedIn and hope it's
+               the right profile"
             />
             <ProblemCard
               title="Complex Usernames"
@@ -211,7 +209,7 @@ const LandingPage: React.FC = () => {
             Join our waitlist to be among the first to experience the future of professional networking.
           </p>
           <button className="bg-black text-white px-10 py-4 rounded-full hover:bg-gray-800 transition flex items-center gap-3 mx-auto">
-            Get Started <ArrowRight size={20} />
+            Join Waitlist <ArrowRight size={20} />
           </button>
         </div>
       </section>
@@ -222,6 +220,7 @@ const LandingPage: React.FC = () => {
       <footer className="bg-white border-t border-gray-200 py-12">
         <div className="container mx-auto px-8 text-center text-gray-600">
           <p>© 2024 LinkDrop. All rights reserved.</p>
+          <p><a href="mailto:danieltian.yx@gmail.com">Contact us </a></p>
         </div>
       </footer>
     </div>
